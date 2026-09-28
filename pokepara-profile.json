@@ -1,0 +1,17 @@
+{
+  "format": "likeassist-profile",
+  "version": 1,
+  "profile": {
+    "name": "ポケパラ",
+    "color": "#b34800",
+    "host": "pokepara.jp",
+    "startUrl": "https://www.pokepara.jp/",
+    "finderActions": [
+      {
+        "label": "イイネを探す",
+        "termsText": "イイネ\nいいね",
+        "enabled": true
+      }
+    ]
+  }
+}
