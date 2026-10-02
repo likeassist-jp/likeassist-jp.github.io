@@ -255,3 +255,6 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .footer-social{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
 .footer-social a{color:var(--gold);font-size:.78rem;transition:opacity .2s}
 .footer-social a:hover{opacity:.8}
+
+.footer nav.footer-social a{color:var(--gold);font-size:.78rem;transition:opacity .2s}
+.footer nav.footer-social a:hover{opacity:.8}
