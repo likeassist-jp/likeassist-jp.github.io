@@ -201,6 +201,14 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   display:flex;align-items:center;justify-content:center;font-weight:800;font-family:var(--ff-d);flex-shrink:0}
 .step-body h4{font-family:var(--ff-d);font-size:.92rem;font-weight:700;margin-bottom:4px}
 .step-body p{font-size:.8rem;color:var(--txt-m);line-height:1.5}
+.profile-import-figure{max-width:520px;margin:24px auto 18px;text-align:center}
+.profile-import-figure img{display:block;width:100%;height:auto;border:1px solid rgba(255,255,255,.12);border-radius:16px}
+.profile-import-figure figcaption{margin-top:8px;font-size:.75rem;color:var(--txt-m)}
+.profile-choice-notes{max-width:520px;margin:0 auto 22px}
+.profile-choice-notes p{font-size:.8rem;color:var(--txt-m);line-height:1.65;margin:0 0 10px}
+.profile-choice-notes strong{color:var(--gold-lt)}
+.profile-json-url,.setup>small{display:block;max-width:520px;margin:14px auto;color:var(--txt-m);font-size:.8rem;line-height:1.6;overflow-wrap:anywhere}
+.profile-json-url a,.setup>small a{color:var(--gold-lt)}
 
 /* ── Safety ── */
 .safety{padding:60px 20px;text-align:center}
@@ -241,6 +249,9 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .footer nav{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
 .footer nav a{color:var(--txt-d);font-size:.72rem;transition:color .2s}
 .footer nav a:hover{color:var(--gold)}
+.footer-social{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+.footer nav.footer-social a{color:var(--gold);font-size:.78rem;transition:opacity .2s}
+.footer nav.footer-social a:hover{opacity:.8}
 
 /* ── Responsive ── */
 @media(max-width:640px){
@@ -251,10 +262,3 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   .comp-table th,.comp-table td{padding:10px 12px}
 }
 
-
-.footer-social{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
-.footer-social a{color:var(--gold);font-size:.78rem;transition:opacity .2s}
-.footer-social a:hover{opacity:.8}
-
-.footer nav.footer-social a{color:var(--gold);font-size:.78rem;transition:opacity .2s}
-.footer nav.footer-social a:hover{opacity:.8}
