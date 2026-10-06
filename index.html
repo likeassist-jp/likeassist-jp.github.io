@@ -174,15 +174,15 @@
     <div class="step">
       <div class="step-num">1</div>
       <div class="step-body">
-        <h4>ポケパラ用JSONをLikeAssistで開く</h4>
-        <p>下のJSON URLをコピーし、LikeAssistのアドレス欄に貼り付けて開きます。</p>
+        <h4>ポケパラ用の設定ページを開く</h4>
+        <p>LikeAssistのブラウザでこのページを開き、下のボタンをタップします。</p>
       </div>
     </div>
     <div class="step">
       <div class="step-num">2</div>
       <div class="step-body">
         <h4>「取り込む」を押して設定を確認</h4>
-        <p>アドレス欄付近にボタンが表示されたら押します。「ポケパラ」「pokepara.jp」「イイネを探す」と表示されていることを確認してください。</p>
+        <p>JSONページが開いたら、アドレス欄付近の「取り込む」をタップします。「ポケパラ」「pokepara.jp」と表示されていることを確認してください。</p>
       </div>
     </div>
     <div class="step">
@@ -208,8 +208,27 @@
     <p><strong>左：登録済みのプロファイル</strong><br>ログイン状態を保ったまま設定を追加できます。</p>
     <p><strong>右：新しいプロファイル</strong><br>ポケパラにログインし直します。新規作成はiOS 17以降で利用できます。</p>
   </div>
-  <p class="profile-json-url">ポケパラ用JSON URL（コピーしてLikeAssistで開く）<br><a href="https://likeassist-jp.github.io/pokepara-profile.json">https://likeassist-jp.github.io/pokepara-profile.json</a></p>
-  <small>JSONにはログイン情報は含まれません。ほかの取り込み方法は、<a href="https://ats-spec.github.io/likeassist-support/profiles.html">サイト設定の共有ガイド</a>をご覧ください。</small>
+  <p class="profile-json-url">LikeAssistのブラウザで開いてください<br><a class="profile-json-cta" href="https://likeassist-jp.github.io/pokepara-profile.json">ポケパラ用の設定を開く <span aria-hidden="true">↗</span></a></p>
+  <small>共有するのは設定内容だけです。ログイン情報は含まれません。ほかの取り込み方法は、<a href="https://ats-spec.github.io/likeassist-support/profiles.html">サイト設定の共有ガイド</a>をご覧ください。</small>
+  <details class="profile-import-videos">
+    <summary>動画で手順を見る</summary>
+    <div class="profile-tutorial-grid">
+      <article class="profile-tutorial-card">
+        <h3>今のプロファイルに追加</h3>
+        <p>現在のログイン状態を保ったまま設定を追加します。</p>
+        <video controls playsinline preload="none" poster="assets/profile-choice-simple-v2.png" aria-label="今のプロファイルにポケパラ設定を追加する手順">
+          <source src="assets/setup-existing-profile.mp4" type="video/mp4">
+        </video>
+      </article>
+      <article class="profile-tutorial-card">
+        <h3>新しいプロファイルに追加</h3>
+        <p>新しいプロファイルでは、ポケパラにログインし直します。</p>
+        <video controls playsinline preload="none" poster="assets/profile-choice-simple-v2.png" aria-label="新しいプロファイルにポケパラ設定を追加する手順">
+          <source src="assets/setup-new-profile.mp4" type="video/mp4">
+        </video>
+      </article>
+    </div>
+  </details>
 </section>
 
 <!-- ═══ SAFETY ═══ -->
@@ -222,7 +241,7 @@
     </div>
     <div class="safe-item">
       <span class="check-ic">✓</span>
-      <span>LikeAssistはポケパラの公式アプリではなく、運営元と提携・公認されたサービスではありません。</span>
+      <span>LikeAssistはポケパラ公式ではない、独立したブラウザアプリです。</span>
     </div>
     <div class="safe-item">
       <span class="check-ic">✓</span>
@@ -272,7 +291,6 @@
     <a href="https://www.instagram.com/likeassist_jp/" target="_blank" rel="noopener noreferrer">Instagram公式アカウント ↗</a>
   </nav>
   <nav>
-    <a href="https://ats-spec.github.io/likeassist-support/">公式サイト</a>
     <a href="https://ats-spec.github.io/likeassist-support/support.html">お問い合わせ</a>
     <a href="https://ats-spec.github.io/likeassist-support/privacy.html">プライバシー</a>
     <a href="https://ats-spec.github.io/likeassist-support/terms.html">利用規約</a>

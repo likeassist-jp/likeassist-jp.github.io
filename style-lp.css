@@ -208,7 +208,19 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .profile-choice-notes p{font-size:.8rem;color:var(--txt-m);line-height:1.65;margin:0 0 10px}
 .profile-choice-notes strong{color:var(--gold-lt)}
 .profile-json-url,.setup>small{display:block;max-width:520px;margin:14px auto;color:var(--txt-m);font-size:.8rem;line-height:1.6;overflow-wrap:anywhere}
+.profile-json-url{text-align:center}
 .profile-json-url a,.setup>small a{color:var(--gold-lt)}
+.profile-json-url a.profile-json-cta{display:flex;width:fit-content;max-width:100%;align-items:center;justify-content:center;gap:8px;margin:12px auto 0;padding:12px 22px;
+  border:1px solid var(--gold);border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--rose));color:#17110b;
+  font-family:var(--ff-d);font-size:.9rem;font-weight:700;text-align:center;overflow-wrap:anywhere;box-shadow:0 4px 20px var(--gold-glow)}
+.profile-json-url a.profile-json-cta:hover{color:#17110b;transform:translateY(-2px);box-shadow:0 8px 30px rgba(212,169,83,.4)}
+.profile-import-videos{max-width:720px;margin:24px auto 0;padding:0 16px;border:1px solid var(--border);border-radius:16px;background:var(--glass)}
+.profile-import-videos summary{padding:16px 0;color:var(--gold-lt);font-family:var(--ff-d);font-weight:700;cursor:pointer}
+.profile-tutorial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:0 0 16px}
+.profile-tutorial-card{padding:14px;border:1px solid rgba(255,255,255,.08);border-radius:14px;background:var(--bg-card)}
+.profile-tutorial-card h3{font-family:var(--ff-d);font-size:.95rem;margin-bottom:4px}
+.profile-tutorial-card p{min-height:2.8em;color:var(--txt-m);font-size:.78rem;line-height:1.5;margin-bottom:10px}
+.profile-tutorial-card video{display:block;width:100%;max-height:520px;aspect-ratio:9/16;object-fit:contain;border-radius:10px;background:#08080d}
 
 /* ── Safety ── */
 .safety{padding:60px 20px;text-align:center}
