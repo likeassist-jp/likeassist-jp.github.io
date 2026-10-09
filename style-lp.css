@@ -167,6 +167,14 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .feat-img img{border-radius:18px;border:1px solid rgba(212,169,83,.15);
   box-shadow:0 16px 40px rgba(0,0,0,.5),0 0 20px rgba(212,169,83,.08)}
 
+.lp-update-heading{max-width:720px;margin:64px auto 28px;text-align:center}
+.lp-update-heading h2{font-family:var(--ff-d);font-size:1.35rem;font-weight:900;margin:8px 0}
+.lp-update-heading>p:last-child{color:var(--txt-m);font-size:.85rem;line-height:1.7}
+.lp-update-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;max-width:900px;margin:0 auto 42px}
+.lp-update-grid article{padding:18px;border:1px solid rgba(212,169,83,.2);border-radius:16px;background:rgba(255,255,255,.035)}
+.lp-update-grid h3{font-family:var(--ff-d);font-size:.95rem;margin:0 0 8px;color:var(--gold-lt)}
+.lp-update-grid p{margin:0;color:var(--txt-m);font-size:.8rem;line-height:1.75}
+
 /* ── Comparison ── */
 .comparison{padding:60px 20px}
 .comparison h2{font-family:var(--ff-d);font-size:1.4rem;font-weight:900;text-align:center;margin-bottom:8px}
@@ -270,6 +278,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   .hero h1{font-size:1.6rem}
   .feat-card,.feat-card.reverse{flex-direction:column;text-align:center}
   .feat-img{max-width:240px;margin:0 auto}
+  .lp-update-grid{grid-template-columns:1fr;max-width:520px}
   .comp-table{font-size:.75rem}
   .comp-table th,.comp-table td{padding:10px 12px}
 }
