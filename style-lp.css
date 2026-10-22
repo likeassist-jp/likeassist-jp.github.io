@@ -352,3 +352,11 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   .setup-compact-actions{width:100%}
   .setup-compact-actions .btn{width:100%;max-width:360px}
 }
+
+/* Keep the mobile landing page focused and reduce unnecessary vertical scroll. */
+@media(max-width:640px){
+  .hero{min-height:auto;padding:100px 20px 48px}
+  .section{padding-top:48px;padding-bottom:48px}
+  .pain-head{margin-bottom:24px}
+  .final-cta{padding:54px 20px}
+}
